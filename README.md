@@ -94,6 +94,17 @@ mac崩溃重启，开机的时候出现五国文字
 
 另外小兵说的合盖唤醒不了不管用
 
+### HDMI fix
+
+之前说系统会崩溃，需要修改下接口数据，具体教程详见：
+https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html
+https://blog.daliansky.net/Intel-core-display-platformID-finishing.html
+
+把机型设成MacBook Pro14.2，应该clover里面打下补丁就行了，最好新建分区做时光机器备份
+可以进mac，不过卡得要是，时常卡死，可以clover进recovery
+按f几可以显示隐藏的recovery preboot分区
+具体是f几，你可以按f1 help
+
 
 # 参考
 
