@@ -82,6 +82,7 @@ http://ourfor.top/2018/01/13/%E4%B8%AA%E6%80%A7%E5%8C%96clover%E5%90%AF%E5%8A%A8
 （4）WiFi不能用，我买了comfast网卡，但是只支持2.4G单频，应该买双频，推荐EDUP双频600M迷你无线网卡
 360网卡GitHub有，但是很久没维护了：https://github.com/tonyxiahua/360WIFI-MAC
 （5）貌似有了plist，亮度还是不保留，不过这个问题不大
+（6）显示器接口数据还没弄，不要通过HDMI接显示器，系统会崩溃的，
 
 # 参考
 
