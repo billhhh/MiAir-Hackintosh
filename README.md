@@ -113,6 +113,9 @@ apfs驱动在，U盘efi也不行
 准备重装10.13.3，80g做主盘，40g做tm盘
 这说明，以后不是逼不得已，不要动分区
 
+因为是最新10.13.3，可以用ourfor v5的efi（去掉一下emu独显驱动即可）：
+https://github.com/ourfor/Mibook-air/releases
+
 # 参考
 
 https://blog.csdn.net/Scythe666/article/details/79677730
