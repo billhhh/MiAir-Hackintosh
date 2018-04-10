@@ -105,6 +105,13 @@ https://blog.daliansky.net/Intel-core-display-platformID-finishing.html
 按f几可以显示隐藏的recovery preboot分区
 具体是f几，你可以按f1 help
 
+---------------------------20180410 更新---------------------
+
+半夜手残，想搞合盖休眠，dark=0，加了cms驱动，后来将苹果系统盘前面的116M分区删掉了，clover里面苹果的entry都没了，恢复clover也没用,怀疑是入口找不到了
+apfs驱动在，U盘efi也不行
+尝试time machine恢复，一直在搜索time machine界面，于是去分区助手看看，发现macos盘和time machine盘都未装载
+准备重装10.13.3，80g做主盘，40g做tm盘
+这说明，以后不是逼不得已，不要动分区
 
 # 参考
 
