@@ -10,6 +10,7 @@ For now, Mi laptop is only sold in China, so this repo target to Chinese friends
 # Notice
 
 MacOS 10.13 EFI is [here](https://github.com/billhhh/MiAir-Hackintosh/tree/master/install_10.3/EFI_20180408)
+
 MacOS 10.13.3 EFI is [here](https://github.com/billhhh/MiAir-Hackintosh/tree/master/%E9%87%8D%E8%A3%8510.13.3/ESP_10.13.3_20180410)
 
 # Hackintosh Step
