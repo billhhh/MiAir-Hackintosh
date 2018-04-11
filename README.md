@@ -1,6 +1,6 @@
 # MiAir-Hackintosh
 
-Hackintosh for now MiAir_i77500u
+Hackintosh for my MiAir_i77500u
 
 Thanks for the help of ourfor, his github address is
 https://github.com/ourfor/Mibook-air
