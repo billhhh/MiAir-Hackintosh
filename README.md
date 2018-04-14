@@ -136,6 +136,25 @@ apfs驱动在，U盘efi也不行
 因为是最新10.13.3，可以用ourfor v5的efi（去掉一下emu独显驱动即可）：
 https://github.com/ourfor/Mibook-air/releases
 
+
+---------------------------20180414 更新---------------------
+
+close lid问题解决了！！！不是网卡驱动问题，不是别的问题，是kext跟BIOS有关
+我的原BIOS版本日期是：Insyde Corp. XMAKB3M0P0907, 16/10/2017
+现在需要刷成 XMAKB3M0P0705_MFG
+刷了就可以用了！！！（刷的过程全程插电，不要动，等他自动重启）详见：http://bbs.xiaomi.cn/t-13100333
+还有这个：http://bbs.xiaomi.cn/t-13643021-2-o1#comment_top
+
+
+唤醒有时会睡醒无声，不过很少遇见
+可以安装 睡眠唤醒 fixed 文件夹里面的声卡驱动解决
+另外记得清空缓存
+reset nvram一般不用，这和启动信息保存有关的
+
+
+至此，黑苹果98%完美
+还有网卡唤醒需要重新插上的问题，换一个网卡就好，EDUP EP-AC1620 11AC双频600M USB无线网卡：http://item.jd.com/3240026.html#comment
+
 # 参考
 
 https://blog.csdn.net/Scythe666/article/details/79677730
