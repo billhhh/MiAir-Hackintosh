@@ -166,11 +166,13 @@ reset nvram一般不用，这和启动信息保存有关的
 
 ---------------------------20180716 更新---------------------
 
-打补丁是直接把 HDMI_fix/config.plist.fixed 替换就好了
+法1:打补丁是直接把 HDMI_fix/config.plist.fixed 替换就好了，但是这样的话就会启动项的名字就不一样了
 
-也可以把这段补丁代码直接粘贴到自己的 config.plist 文件里面
+法2:也可以把这段补丁代码直接粘贴到自己的 config.plist 文件里面
 
-文本搜索 "外接HDMI显示器补丁" 可以找到增加段落，把那一部分的<dict>…</dict>放到<key>KextsToPatch</key>的<array></array>里面就行了
+文本搜索 "外接HDMI显示器补丁" 可以找到增加段落，把那一部分的'<dict>…</dict>放到<key>KextsToPatch</key>的<array></array>'里面就行了
+
+法3:或者你直接在这个软件里面加一个，把对应部分粘贴进去
 
 建议清除下驱动缓存，然后重启
 
