@@ -170,7 +170,7 @@ reset nvram一般不用，这和启动信息保存有关的
 
 也可以把这段补丁代码直接粘贴到自己的 config.plist 文件里面
 
-文本搜索 "外接HDMI显示器补丁" 可以找到增加段落
+文本搜索 "外接HDMI显示器补丁" 可以找到增加段落，把那一部分的<dict>…</dict>放到<key>KextsToPatch</key>的<array></array>里面就行了
 
 建议清除下驱动缓存，然后重启
 
