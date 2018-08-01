@@ -184,7 +184,7 @@ reset nvram一般不用，这和启动信息保存有关的
 首先备份你现在的EFI
 - 删除ApplePS2SmartTouchPad
 - 更新驱动VoodooI2C  VoodooI2CELAN VoodooI2CHID
-- 更新DSDT，位于EFI/CLOVER/ACPI/patched/
+- 更新DSDT，位于EFI/CLOVER/ACPI/patched/，更新DSDT.aml文件即可
 重建缓存
 ```
 
