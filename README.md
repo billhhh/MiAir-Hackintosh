@@ -176,6 +176,18 @@ reset nvram一般不用，这和启动信息保存有关的
 
 建议清除下驱动缓存，然后重启
 
+---------------------------20180801 更新---------------------
+
+对于ourfor github里面2018年7月31日的，如果只想用新的触摸板驱动，其他不动，应该酱紫操作
+
+```
+首先备份你现在的EFI
+- 删除ApplePS2SmartTouchPad
+- 更新驱动VoodooI2C  VoodooI2CELAN VoodooI2CHID
+- 更新DSDT，位于EFI/CLOVER/ACPI/patched/
+重建缓存
+```
+
 # 参考
 
 https://blog.csdn.net/Scythe666/article/details/79677730
