@@ -188,6 +188,16 @@ reset nvram一般不用，这和启动信息保存有关的
 重建缓存
 ```
 
+---------------------------20180816更新-----------------------
+
+```
+ourfor最新版的地址详见：https://github.com/ourfor/Mibook-air/blob/master/Changelog.md
+最新版efi下载地址：链接: https://pan.baidu.com/s/16TsXGqDaI8W4mfP73TACqA 密码: 27hv
+但是直接用可能有点问题，因为不一定是建立在esp分区
+```
+
+另外cpu驱动直接用黑果小兵的，他的也是7500U，直接使用CPU friend那两个文件
+
 # 参考
 
 https://blog.csdn.net/Scythe666/article/details/79677730
