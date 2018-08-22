@@ -176,6 +176,35 @@ reset nvram一般不用，这和启动信息保存有关的
 
 建议清除下驱动缓存，然后重启
 
+---------------------------20180801 更新---------------------
+
+对于ourfor github里面2018年7月31日的，如果只想用新的触摸板驱动，其他不动，应该酱紫操作
+
+```
+首先备份你现在的EFI
+- 删除ApplePS2SmartTouchPad
+- 更新驱动VoodooI2C  VoodooI2CELAN VoodooI2CHID
+- 更新DSDT，位于EFI/CLOVER/ACPI/patched/，更新DSDT.aml文件即可
+重建缓存
+```
+
+---------------------------20180817七夕更新-----------------------
+
+```
+ourfor最新版的地址详见：https://github.com/ourfor/Mibook-air/blob/master/Changelog.md
+最新版efi下载地址：链接: https://pan.baidu.com/s/16TsXGqDaI8W4mfP73TACqA 密码: 27hv
+但是直接用可能有点问题，因为不一定是建立在esp分区
+```
+
+另外cpu驱动直接用黑果小兵的，他的也是7500U（github上面看看daliansky的dell的仓库），直接使用CPU friend那两个文件，相当于与原来一样
+
+新触摸板驱动使用体验：
+```
+1、手势不错，但是进win，重启到mac还是不能用
+2、但是键位的变化，键盘驱动在Apple2S…文件内部，感觉并不是太好用，alt键快捷键变化，所以换回原来的驱动（如果要修改键位，里面有个plugin文件，有个键盘驱动作为插件加载，那个键盘驱动里面设置键位）
+3、换成ourfor的文件后，发现hidpi木有了，要每次开机都需要rdp启动，解决方法：hidpi要取消勾选plist里面的edid（详见ESP_version内部的TIM图片20180817134420图片）
+```
+
 # 参考
 
 https://blog.csdn.net/Scythe666/article/details/79677730
