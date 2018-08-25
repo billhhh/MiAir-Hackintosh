@@ -205,6 +205,13 @@ ourfor最新版的地址详见：https://github.com/ourfor/Mibook-air/blob/maste
 3、换成ourfor的文件后，发现hidpi木有了，要每次开机都需要rdp启动，解决方法：hidpi要取消勾选plist里面的edid（详见ESP_version内部的TIM图片20180817134420图片）
 ```
 
+---------------------------20180824更新-----------------------
+
+亲测取消勾选plist里面的edid，hidpi好使
+
+而且双屏的时候，如果自己的屏幕是hidpi，连上HDMI接口，本机不显示，反而外接显示屏显示；后来将本机hidpi去掉，再连接就可以了，而且连接之后可以将本机的hidpi放回来
+
+
 # 参考
 
 https://blog.csdn.net/Scythe666/article/details/79677730
