@@ -188,6 +188,12 @@ reset nvram一般不用，这和启动信息保存有关的
 重建缓存
 ```
 
+另外，有个工作可以follow，GitHub有个小哥开发Wi-Fi模块，现在已经可以扫描到外部网络
+
+https://github.com/rpeshkov/IntelWifi
+
+https://www.tonymacx86.com/threads/intel-wifi-driver-effort.186344/page-23
+
 ---------------------------20180817七夕更新-----------------------
 
 ```
