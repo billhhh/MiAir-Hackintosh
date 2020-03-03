@@ -55,6 +55,13 @@ bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 三码合一参考：https://www.bilibili.com/video/av20912880
 另外直接装完以后可能唤醒有点问题，用10.13.3（https://pan.baidu.com/s/1bqmWMLp 密码: 7pu8），配合ourfor最新的efi（https://github.com/ourfor/Mibook-air/archive/5.0.zip）也可以解决
 
+---------------------------20200303 更新---------------------
+
+整理文件夹，分类摆放文件夹，Trackpad updated + 15.0 supported，现在触控板非常好用，可以三指拖动和三指查词等白果手势
+Wireless Adapter driver: https://github.com/chris1111/Wireless-USB-Adapter-Clover
+WiFi目前无解，国外大佬的IntelWifi项目进展迅速，目前已经能够在系统偏好设置-网络-Wi-Fi中扫描到WIFI信号了 相关项目地址：IntelWifi(https://github.com/rpeshkov/IntelWifi) 和 black80211(https://github.com/rpeshkov/black80211)
+最新 efi 以 release 为准，如果是 Mi-Air-i77500u 可以直接拖入 esp 分区，目前已是黑苹果单系统
+
 
 ---------------------------20180408 更新---------------------
 
