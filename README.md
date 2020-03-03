@@ -57,7 +57,7 @@ bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 
 ---------------------------20200303 更新---------------------
 
-整理文件夹，分类摆放文件夹，Trackpad updated + 15.0 supported，现在触控板非常好用，可以三指拖动和三指查词等白果手势
+整理文件夹，分类摆放文件夹，Trackpad updated + 10.15 supported，现在触控板非常好用，可以三指拖动和三指查词等白果手势
 
 Wireless Adapter driver: https://github.com/chris1111/Wireless-USB-Adapter-Clover
 
@@ -66,6 +66,26 @@ WiFi目前无解，国外大佬的IntelWifi项目进展迅速，目前已经能�
 最新 efi 以 release 为准，如果是 Mi-Air-i77500u 可以直接拖入 esp 分区，目前已是黑苹果单系统
 
 如果出现睡眠不醒的情况，请刷 tools/bios，此 bios 是0705版本的，可以参考教程 https://www.xiaomi.cn/post/105392
+
+另外据悉，苹果公司有望在今明两年在 mac 上用上 ryzen，说不定以后有希望用更高性价比吃上黑苹果
+
+贴一下 macos catalina 的下载地址：
+
+（1）10.15 https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html
+
+百毒云下载链接: https://pan.baidu.com/s/1yAE6hUveviU6gKaEG0z_Yw 提取码: wqre
+
+(2) 10.15.1 https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html
+
+百毒云下载链接: https://pan.baidu.com/s/1OG8Dm88bH66A38E0_ek0yg 提取码: 5tub
+
+（3）10.15.2 https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html
+
+百毒云下载链接: https://pan.baidu.com/s/1LVbWZ-qLd8xQwQCsJct_bA 提取码: rk3d
+
+（4）10.15.3 https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html
+
+百毒云下载链接: https://pan.baidu.com/s/1T7azCnptCdnw6qI41QghgA 提取码: kq67
 
 
 ---------------------------20180408 更新---------------------
