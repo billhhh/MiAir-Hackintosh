@@ -58,9 +58,14 @@ bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 ---------------------------20200303 更新---------------------
 
 整理文件夹，分类摆放文件夹，Trackpad updated + 15.0 supported，现在触控板非常好用，可以三指拖动和三指查词等白果手势
+
 Wireless Adapter driver: https://github.com/chris1111/Wireless-USB-Adapter-Clover
+
 WiFi目前无解，国外大佬的IntelWifi项目进展迅速，目前已经能够在系统偏好设置-网络-Wi-Fi中扫描到WIFI信号了 相关项目地址：IntelWifi(https://github.com/rpeshkov/IntelWifi) 和 black80211(https://github.com/rpeshkov/black80211)
+
 最新 efi 以 release 为准，如果是 Mi-Air-i77500u 可以直接拖入 esp 分区，目前已是黑苹果单系统
+
+如果出现睡眠不醒的情况，请刷 tools/bios，此 bios 是0705版本的，可以参考教程 https://www.xiaomi.cn/post/105392
 
 
 ---------------------------20180408 更新---------------------
