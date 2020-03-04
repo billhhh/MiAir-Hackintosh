@@ -33,7 +33,10 @@ DG软件在这一步骤用有很大作用，因为mac需要200M的EFI才能抹�
 
 （2）复制已经做好的EFI到U盘的ESP分区，有两种方法。一种是直接用explorer++；另一种是参照这个视频：https://www.bilibili.com/video/av19235761 ，将U盘ESP删除，新建一个FAT32格式分区，再把EFI复制过来
 
-因为我用的10.13的系统（ http://pan.baidu.com/s/1kVwxCPL ）~~，就用的相对比较旧一点的efi文件，这个repo里面的EFI_小米笔记本Air-i7-7500U-10.13.zip 用太新的efi，无限重启，后来得知kext文件夹中coredisplay需要去掉就可以用了，这个就是导致无限重启的原因
+因为我用的10.13的系统（ http://pan.baidu.com/s/1kVwxCPL ）
+10.13.3（https://pan.baidu.com/s/1bqmWMLp 密码: 7pu8）
+
+~~，就用的相对比较旧一点的efi文件，这个repo里面的EFI_小米笔记本Air-i7-7500U-10.13.zip 用太新的efi，无限重启，后来得知kext文件夹中coredisplay需要去掉就可以用了，这个就是导致无限重启的原因
 特别注意，driver64UEFI文件夹中的EmuVariableUefi64，这个用于驱动独显，但是现在版本驱动不了用不到~~
 
 ## 安装
