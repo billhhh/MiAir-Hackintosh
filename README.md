@@ -52,7 +52,8 @@ bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 
 ## 完善
 
-三码合一参考：https://www.bilibili.com/video/av20912880
+～～三码合一参考：https://www.bilibili.com/video/av20912880～～
+其实现在可以不用管三码问题了，直接拖入efi即可
 另外直接装完以后可能唤醒有点问题，用10.13.3（https://pan.baidu.com/s/1bqmWMLp 密码: 7pu8），配合ourfor最新的efi（https://github.com/ourfor/Mibook-air/archive/5.0.zip）也可以解决
 
 ---------------------------20200303 更新---------------------
