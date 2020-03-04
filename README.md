@@ -31,9 +31,9 @@ DG软件在这一步骤用有很大作用，因为mac需要200M的EFI才能抹�
 
 （1）用TransMac做U盘，注：我用的10.13的系统
 
-（2）复制已经做好的EFI到U盘的ESP分区，有两种方法。一种是直接用explorer++；另一种是参照这个视频：https://www.bilibili.com/video/av19235761，将U盘ESP删除，新建一个FAT32格式分区，再把EFI复制过来
+（2）复制已经做好的EFI到U盘的ESP分区，有两种方法。一种是直接用explorer++；另一种是参照这个视频：https://www.bilibili.com/video/av19235761 ，将U盘ESP删除，新建一个FAT32格式分区，再把EFI复制过来
 
-因为我用的10.13的系统（http://pan.baidu.com/s/1kVwxCPL），就用的相对比较旧一点的efi文件，这个repo里面的EFI_小米笔记本Air-i7-7500U-10.13.zip
+因为我用的10.13的系统（ http://pan.baidu.com/s/1kVwxCPL ），就用的相对比较旧一点的efi文件，这个repo里面的EFI_小米笔记本Air-i7-7500U-10.13.zip
 用太新的efi，无限重启，后来得知kext文件夹中coredisplay需要去掉就可以用了，这个就是导致无限重启的原因
 特别注意，driver64UEFI文件夹中的EmuVariableUefi64，这个用于驱动独显，但是现在版本驱动不了用不到
 
@@ -41,7 +41,7 @@ DG软件在这一步骤用有很大作用，因为mac需要200M的EFI才能抹�
 
 压缩C盘空间空出一个40G的盘
 值得一提的是，有很多教程建议这个时候将这个空白盘抹成apple的
-我也是参照这个视频https://www.bilibili.com/video/av19235761，新建盘但是不分配盘符和格式化，也是可以的
+我也是参照这个视频 https://www.bilibili.com/video/av19235761 ，新建盘但是不分配盘符和格式化，也是可以的
 
 另外还有一个问题：win的盘，可以读但是不能写，这个可以修改，但是windows系统分区不能写
 其他ntfs的分区可以，百度或者Google macOS原生读写ntfs，不建议安装ntfs读写软件，这样对Windows系统分区不好
@@ -52,9 +52,9 @@ bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 
 ## 完善
 
-～三码合一参考：https://www.bilibili.com/video/av20912880～
+~~三码合一参考：https://www.bilibili.com/video/av20912880~~
 其实现在可以不用管三码问题了，直接拖入efi即可
-另外直接装完以后可能唤醒有点问题，用10.13.3（https://pan.baidu.com/s/1bqmWMLp 密码: 7pu8），配合ourfor最新的efi（https://github.com/ourfor/Mibook-air/archive/5.0.zip）也可以解决
+另外直接装完以后可能唤醒有点问题，用10.13.3（https://pan.baidu.com/s/1bqmWMLp 密码: 7pu8），用最新的efi解决
 
 ---------------------------20200303 更新---------------------
 
