@@ -51,7 +51,33 @@ DG软件在这一步骤用有很大作用，因为mac需要200M的EFI才能抹�
 
 其他ntfs的分区可以，百度或者Google macOS原生读写ntfs，不建议安装ntfs读写软件，这样对Windows系统分区不好
 
-efi好了以后，安装就问题不大了，~~注意不要登陆就好，后面三码合一安装后~~，进win，将Clover文件夹复制到硬盘
+efi好了以后，安装就问题不大了，~~注意不要登陆就好，后面三码合一安装后，~~
+
+进win，将Clover文件夹复制到硬盘。这一步也可以在mac下完成，直接用clover configurator挂载 esp 分区，或者
+
+### macOS下  
+```bash
+diskutil list
+diskutil mount disksxsx  //diskxsx就是你EFI类型分区的IDENTIFIER
+```
+
+### win下 
+组合键` win `+` R(run) `,输入` diskpart `点击运行，输入以下命令挂载：  
+```bash  
+list disk   //列出存储设备信息
+select disk 0    //选择磁盘0（选择ESP分区所在磁盘，一块硬盘默认为0）
+list partition   //列出所选硬盘的所有分区
+select partition 0   //根据ESP分区选择
+assign letter=x     //分配盘符  
+```
+接下来你就可以在Windows的资源管理器里面看到` x `盘，就是我们系统的ESP引导分区，但是在Windows资源管理器中会提示没有权限打开，这时候使用软件` Explorer++ `以管理员身份运行，用最新 release EFI，删除EFI文件夹下面的` Windows `和` Ubuntu `这两个文件夹，之后再移动到ESP分区，如果有提示选择合并。
+
+[Explorer++](https://explorerplusplus.com/software/explorer++_1.3.5_x64.zip) 
+
+[Bootice](http://www.ipauly.com/wp-content/uploads/2015/11/BOOTICEx64_v1.332.rar)
+
+
+以管理员身份运行Bootice，` UEFI-修改启动序列-添加 `添加四叶草开机引导路径(` X:\EFI\CLOVER\CLOVERX64.efi `) ,上移到第一启动序列.下次开机就能进入四叶草引导了。  
 
 bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 
