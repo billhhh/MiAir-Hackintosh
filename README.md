@@ -274,7 +274,7 @@ ourfor最新版的地址详见：https://github.com/ourfor/Mibook-air/blob/maste
 ```
 1、手势不错，但是进win，重启到mac还是不能用
 2、但是键位的变化，键盘驱动在Apple2S…文件内部，感觉并不是太好用，alt键快捷键变化，所以换回原来的驱动（如果要修改键位，里面有个plugin文件，有个键盘驱动作为插件加载，那个键盘驱动里面设置键位）
-3、换成ourfor的文件后，发现hidpi木有了，要每次开机都需要rdp启动，解决方法：hidpi要取消勾选plist里面的edid（详见ESP_version内部的TIM图片20180817134420图片）
+3、换成ourfor的文件后，发现hidpi木有了，要每次开机都需要rdm启动，解决方法：hidpi要取消勾选plist里面的edid（详见ESP_version内部的TIM图片20180817134420图片）
 ```
 
 ---------------------------20180824更新-----------------------
