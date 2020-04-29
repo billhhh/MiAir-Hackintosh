@@ -89,6 +89,12 @@ bootice添加 /ESP/EFI/CLOVER/CLOVERX64.efi 启动项，并移动到第一个
 
 另外直接装完以后可能唤醒有点问题，用10.13.3（https://pan.baidu.com/s/1bqmWMLp 密码: 7pu8），用最新的efi解决
 
+
+---------------------------20200430 更新---------------------
+
+USB Clover Adapter 更新 v14
+https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases
+
 ---------------------------20200303 更新---------------------
 
 整理文件夹，分类摆放文件夹，Trackpad updated + 10.15 supported，现在触控板非常好用，可以三指拖动和三指查词等白果手势
