@@ -11,6 +11,10 @@ MacOS EFI is [here](https://github.com/billhhh/MiAir-Hackintosh/releases)
 
 # Hackintosh Step
 
+## 相关工具下载
+
+https://github.com/ourfor/Mibook-air/issues/20
+
 ## 手动建立ESP
 
 DG软件在这一步骤用有很大作用，因为mac需要200M的EFI才能抹盘
