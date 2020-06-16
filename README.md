@@ -5,8 +5,6 @@ Hackintosh for my MiAir_i77500u
 Thanks for the help of ourfor, his github address is
 https://github.com/ourfor/Mibook-air
 
-For now, Mi laptop is only sold in China, so this repo targets to help Chinese friends.
-
 # Notice
 
 MacOS EFI is [here](https://github.com/billhhh/MiAir-Hackintosh/releases)
